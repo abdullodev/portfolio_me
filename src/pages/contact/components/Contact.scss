@@ -104,9 +104,12 @@
         width: 50%;
         height: 45px;
         color: #ffffff;
-        background-color: #045ffb;
+        background-color: #496185;
         border-radius: 12px;
         font-weight: 500;
+        &:hover {
+          background-color: #045ffb;
+        }
 
         @media screen and (max-width: 760px) {
           width: 100%;

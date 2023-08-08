@@ -15,7 +15,9 @@ const Social = () => {
               data-aos="zoom-in-right"
               data-aos-anchor-placement="top-bottom"
             >
-              <a href="#">{item.icon}</a>
+              <a href={item.link} target="_blank">
+                {item.icon}
+              </a>
             </li>
           ))}
         </ul>

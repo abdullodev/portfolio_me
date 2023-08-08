@@ -20,8 +20,10 @@ const About = () => {
             </div>
             <div className="about_me" data-aos="fade-right">
               <p>
-                Hello. My name is Abdullo. <br /> I learned React, Typescript
-                and worked with them
+                Hello. My name is Abdullo. <br /> I learned{" "}
+                <span className="gradient-text"> Frontend </span> and worked
+                with them. <br /> My experience is{" "}
+                <span className="gradient-text">1+</span> years.
               </p>
             </div>
           </div>

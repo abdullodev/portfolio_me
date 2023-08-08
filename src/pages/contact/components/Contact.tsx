@@ -24,7 +24,7 @@ const Contact = () => {
                 <a href="#">abdulloergashxojayev01@gmail.com</a>
               </li>
               <li>
-                <a href="#">+998 90 094 18 01</a>
+                <a href="tel:+998 90 094 18 01">+998 90 094 18 01</a>
               </li>
             </ul>
 
@@ -37,20 +37,31 @@ const Contact = () => {
             </h2>
 
             <ul data-aos="fade-right" data-aos-anchor-placement="top-bottom">
-              <li>
+              {/* <li>
                 <a href="#">Linkedin</a>
+              </li> */}
+              <li>
+                <a href="https://www.instagram.com/abdullo_me/" target="_blank">
+                  Instagram
+                </a>
               </li>
               <li>
-                <a href="#">Instagram</a>
+                <a href="https://t.me/abdullo_me" target="_blank">
+                  Telegram
+                </a>
               </li>
               <li>
-                <a href="#">Telegram</a>
+                <a
+                  href="https://www.facebook.com/abdullo.ergashxojayev.3?mibextid=2JQ9oc"
+                  target="_blank"
+                >
+                  Facebook
+                </a>
               </li>
               <li>
-                <a href="#">Facebook</a>
-              </li>
-              <li>
-                <a href="#">Github</a>
+                <a href="https://github.com/abdullodev" target="_blank">
+                  Github
+                </a>
               </li>
             </ul>
           </div>
