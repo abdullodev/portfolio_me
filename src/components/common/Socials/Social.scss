@@ -1,0 +1,45 @@
+.social_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  min-height: 40px;
+  padding-top: 20px;
+  h3 {
+    font-size: 18px;
+    color: #002042;
+    font-weight: 500;
+  }
+
+  .socials_boxes {
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 20px;
+      li {
+        list-style-type: none;
+        a {
+          .MuiSvgIcon-root {
+            color: #002042;
+            font-size: 25px;
+            transition: all 0.3s ease;
+
+            &:hover {
+              transform: scale(1.5) rotate(360deg);
+            }
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 760px) {
+    flex-direction: column-reverse;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+      font-size: 14px;
+    }
+  }
+}

@@ -1,0 +1,121 @@
+.app_container {
+  .app_content {
+    .app_main {
+      .main_text {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        height: 100%;
+        gap: 30px;
+
+        .info_text {
+          h1 {
+            font-size: 60px;
+            background: -webkit-linear-gradient(left, #045ffb, #002042);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+            span {
+              color: #002042;
+            }
+          }
+          h3 {
+            color: #002042;
+            font-size: 35px;
+          }
+
+          @media screen and (max-width: 860px) {
+            h1 {
+              font-size: 55px;
+            }
+            h3 {
+              font-size: 27px;
+            }
+          }
+        }
+
+        .main_btns {
+          display: flex;
+          justify-content: flex-start;
+          gap: 30px;
+
+          a {
+            text-decoration: none;
+            .MuiButtonBase-root {
+              padding: 9px 30px;
+              background: linear-gradient(to right, #002042, #045ffb);
+              display: flex;
+              gap: 7px;
+              color: #ffffff;
+              text-transform: inherit;
+
+              .icon1,
+              .icon2 {
+                transition: 0.3s ease;
+              }
+
+              &:hover {
+                -webkit-box-shadow: 0px 0px 17px -3px rgba(105, 190, 255, 0.6);
+                -moz-box-shadow: 0px 0px 17px -3px rgba(105, 190, 255, 0.6);
+                box-shadow: 0px 0px 17px -3px rgba(105, 190, 255, 0.6);
+
+                .icon1 {
+                  animation: icon2 1s linear infinite;
+                }
+                .icon2 {
+                  animation: icon1 1s linear infinite;
+                }
+              }
+
+              @keyframes icon1 {
+                0% {
+                  transform: translateY(0);
+                }
+                50% {
+                  transform: translateY(4px);
+                }
+                100% {
+                  transform: translateY(0);
+                }
+              }
+              @keyframes icon2 {
+                0% {
+                  transform: scale(1);
+                }
+                50% {
+                  transform: scale(1.1);
+                }
+                100% {
+                  transform: scale(1);
+                }
+              }
+            }
+          }
+
+          @media screen and (max-width: 400px) {
+            flex-direction: column;
+          }
+        }
+      }
+      .main_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+          width: 80%;
+        }
+      }
+
+      @media screen and (max-width: 800px) {
+        grid-template-columns: 1fr;
+        .main_text {
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
