@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: flex-end;
   min-height: 40px;
-  padding-top: 20px;
+  // padding-top: 20px;
   h3 {
     font-size: 18px;
     color: #002042;
@@ -19,13 +19,21 @@
       li {
         list-style-type: none;
         a {
+          width: 42px;
+          height: 42px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50%;
+          background-color: #496185;
           .MuiSvgIcon-root {
-            color: #002042;
+            color: #ffffff;
             font-size: 25px;
             transition: all 0.3s ease;
-
-            &:hover {
-              transform: scale(1.5) rotate(360deg);
+          }
+          &:hover {
+            .MuiSvgIcon-root {
+              transform: scale(1.1) rotate(360deg);
             }
           }
         }

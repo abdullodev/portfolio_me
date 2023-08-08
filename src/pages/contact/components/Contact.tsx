@@ -13,9 +13,7 @@ const Contact = () => {
         </div>
         <div className="app_main">
           <div className="contact_info">
-            <div className="contact_img" data-aos="zoom-in-left">
-              <img src={User} alt="user" />
-            </div>
+            <div className="contact_img" data-aos="zoom-in-left"></div>
             <h2 className="gradient-text" data-aos="fade-right">
               Contact details
             </h2>

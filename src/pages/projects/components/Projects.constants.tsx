@@ -26,12 +26,12 @@ export const PROJECTS: IProjects[] = [
   },
   {
     imgUrl: Shopreact,
-    description: "E-commerce website maked by React, Typescript",
+    description: "E-commerce website",
     demo: "https://ea-store.netlify.app/",
   },
   {
     imgUrl: Shopjs,
-    description: "Javascript bilan qilingan online magazin",
+    description: "Store maked Javascript",
     demo: "https://shoppingbyme.netlify.app/",
   },
 ];

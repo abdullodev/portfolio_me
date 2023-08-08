@@ -16,7 +16,7 @@ const About = () => {
               <h2>A bit about me...</h2>
             </div>
             <div className="about_img" data-aos="fade-right">
-              <img src={AboutImg} alt="user" />
+              {/* <img src={AboutImg} alt="user" /> */}
             </div>
             <div className="about_me" data-aos="fade-right">
               <p>

@@ -38,9 +38,7 @@ const Home = () => {
               </a>
             </div>
           </div>
-          <div className="main_img" data-aos="zoom-in">
-            <img src={Laptop} alt="Laptop" />
-          </div>
+          <div className="main_img" data-aos="zoom-in"></div>
         </div>
       </div>
       <Social />

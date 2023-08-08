@@ -4,13 +4,13 @@
     height: 250px;
     border-radius: 50%;
     overflow: hidden;
+    background-image: url("../assets/user.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-bottom: 40px;
-
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+    -webkit-box-shadow: 0px 0px 13px -5px rgba(119, 191, 247, 0.6);
+    -moz-box-shadow: 0px 0px 13px -5px rgba(119, 191, 247, 0.6);
+    box-shadow: 0px 0px 13px -5px rgba(119, 191, 247, 0.6);
   }
   h2 {
     font-size: 18px;
@@ -34,7 +34,7 @@
         color: #002042;
         transition: all 0.3s ease;
         &:hover {
-          color: #045ffb;
+          color: #2ea2d7;
         }
       }
     }
@@ -91,7 +91,7 @@
           color: rgba(0, 32, 79, 0.7);
         }
         &:focus {
-          border-bottom: 2px solid #045ffb;
+          border-bottom: 2px solid #2ea2d7;
         }
       }
       textarea {
@@ -108,7 +108,7 @@
         border-radius: 12px;
         font-weight: 500;
         &:hover {
-          background-color: #045ffb;
+          background-color: #2ea2d7;
         }
 
         @media screen and (max-width: 760px) {
