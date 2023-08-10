@@ -25,7 +25,7 @@
 
 /* text color  */
 
-/* #002042   #045ffb #164d88 */
+/* #041e34   #045ffb #164d88 */
 
 .app_container {
   width: 100%;
@@ -58,7 +58,7 @@
   font-size: 45px;
   display: inline-block;
   font-weight: 600;
-  background: -webkit-linear-gradient(right, #2ea2d7, #002042);
+  background: -webkit-linear-gradient(right, #2ea2d7, #041e34);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: flex;
@@ -67,7 +67,7 @@
 .title span {
   height: 5px;
   width: 50px;
-  background: linear-gradient(to right, #2ea2d7, #002042);
+  background: linear-gradient(to right, #2ea2d7, #041e34);
   display: inline-block;
   margin: 0 auto;
   margin-top: 10px;
@@ -75,7 +75,7 @@
 }
 
 .gradient-text {
-  background: -webkit-linear-gradient(left, #2ea2d7, #002042);
+  background: -webkit-linear-gradient(left, #2ea2d7, #041e34);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
