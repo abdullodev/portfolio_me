@@ -1,9 +1,24 @@
-import "./Contact.scss";
-import User from "../assets/user.jpg";
-import { Social } from "components";
 import { Button } from "@mui/material";
+import { Social } from "components";
+import { useRef, useState } from "react";
+import "./Contact.scss";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import { toast } from "react-hot-toast";
+import User from "../assets/user.jpg";
 
 const Contact = () => {
+  const [copySuccess, setCopySuccess] = useState("");
+
+  const copyToClipBoard = async (copyMe: any) => {
+    try {
+      await navigator.clipboard.writeText(copyMe);
+      setCopySuccess("Copied!");
+      toast.success("Email successfully cpied!");
+    } catch (err) {
+      setCopySuccess("Failed to copy!");
+    }
+  };
+
   return (
     <div className="app_container">
       <div className="app_content">
@@ -13,16 +28,25 @@ const Contact = () => {
         </div>
         <div className="app_main">
           <div className="contact_info">
-            <div className="contact_img" data-aos="zoom-in-left"></div>
+            <div className="contact_img" data-aos="zoom-in-left">
+              <LazyLoadImage src={User} effect="blur" />
+            </div>
             <h2 className="gradient-text" data-aos="fade-right">
               Contact details
             </h2>
             <ul data-aos="fade-right">
               <li>
-                <a href="#">abdulloergashxojayev01@gmail.com</a>
+                <a
+                  href="#"
+                  onClick={() =>
+                    copyToClipBoard("abdulloergashxojayev01@gmail.com")
+                  }
+                >
+                  abdulloergashxojayev01@gmail.com
+                </a>
               </li>
               <li>
-                <a href="tel:+998 90 094 18 01">+998 90 094 18 01</a>
+                <a href="tel:+998900941801">+998 90 094 18 01</a>
               </li>
             </ul>
 

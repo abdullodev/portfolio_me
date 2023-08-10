@@ -1,6 +1,8 @@
 import { Social } from "components";
 import AboutImg from "../assets/user.jpg";
 import { SKILLS } from "./About.constants";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 import "./About.scss";
 
 const About = () => {
@@ -16,7 +18,7 @@ const About = () => {
               <h2>A bit about me...</h2>
             </div>
             <div className="about_img" data-aos="fade-right">
-              {/* <img src={AboutImg} alt="user" /> */}
+              <LazyLoadImage src={AboutImg} effect="blur" />
             </div>
             <div className="about_me" data-aos="fade-right">
               <p>
