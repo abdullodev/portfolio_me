@@ -30,12 +30,20 @@ const About = () => {
             </div>
           </div>
           <div className="skill_content">
-            <div className="skill_title" data-aos="zoom-in-right">
+            <div
+              className="skill_title"
+              data-aos="zoom-in-right"
+              data-aos-anchor-placement="top-bottom"
+            >
               <h2>Skills</h2>
             </div>
             <div className="skill_boxes">
               {SKILLS.map((item) => (
-                <div className="skill_box" data-aos="zoom-in">
+                <div
+                  className="skill_box"
+                  data-aos="zoom-in"
+                  data-aos-anchor-placement="top-bottom"
+                >
                   <div className="img_box">
                     <img src={item?.img} alt="" />
                   </div>
