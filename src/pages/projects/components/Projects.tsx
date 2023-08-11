@@ -53,7 +53,7 @@ const Projects = () => {
   return (
     <div className="app_container">
       <div className="app_content">
-        <div className="title">
+        <div className="title" data-aos="zoom-in">
           Projects
           <span></span>
         </div>
