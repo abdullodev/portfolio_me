@@ -1,10 +1,11 @@
-import "./Home.scss";
-import { Button, Grid } from "@mui/material";
-import Laptop from "../assets/laptop 1.png";
 import ContactPhoneIcon from "@mui/icons-material/ContactPhone";
 import FileDownloadIcon from "@mui/icons-material/FileDownload";
-import { Link } from "react-router-dom";
+import { Button } from "@mui/material";
 import { Social } from "components";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import { Link } from "react-router-dom";
+import Web from "../assets/webb.png";
+import "./Home.scss";
 
 const Home = () => {
   return (
@@ -38,7 +39,9 @@ const Home = () => {
               </a>
             </div>
           </div>
-          <div className="main_img" data-aos="zoom-in"></div>
+          <div className="main_img" data-aos="zoom-in">
+            <LazyLoadImage src={Web} effect="blur" />
+          </div>
         </div>
       </div>
       <Social />

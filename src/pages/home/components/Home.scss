@@ -101,10 +101,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url("../assets/laptop\ 1.png");
-        background-size: contain;
-        background-position: right;
-        background-repeat: no-repeat;
+
+        img {
+          max-width: 90%;
+          max-height: 80%;
+          object-fit: cover;
+        }
       }
 
       @media screen and (max-width: 800px) {
