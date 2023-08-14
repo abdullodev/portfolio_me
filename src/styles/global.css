@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Heebo:wght@300;400;500;600;700&family=Inter:wght@200;300;400;500;600;700&family=Kablammo&family=Noto+Sans:wght@300;400;500;600;700&family=Nunito:ital,wght@0,300;1,300&family=Open+Sans:wght@400;500;600;700&family=PT+Sans:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Roboto:wght@300;400;500;700&family=Rubik:wght@300;400;500;600&family=Tilt+Prism&family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Heebo:wght@300;400;500;600;700&family=Inter:wght@200;300;400;500;600;700&family=Kablammo&family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=Noto+Sans:wght@300;400;500;600;700&family=Nunito:ital,wght@0,300;1,300&family=Open+Sans:wght@400;500;600;700&family=PT+Sans:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Roboto:wght@300;400;500;700&family=Rubik:wght@300;400;500;600&family=Tilt+Prism&family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap");
 
 * {
   padding: 0;
@@ -8,6 +8,7 @@
   font-family: "Heebo", sans-serif;
   font-family: "Inter", sans-serif;
   font-family: "Kablammo", cursive;
+  font-family: "Mulish", sans-serif;
   font-family: "Noto Sans", sans-serif;
   font-family: "Nunito", sans-serif;
   font-family: "Open Sans", sans-serif;
@@ -58,7 +59,7 @@
   font-size: 45px;
   display: inline-block;
   font-weight: 600;
-  background: -webkit-linear-gradient(right, #2ea2d7, #011e49);
+  background: -webkit-linear-gradient(right, #1076b1, #011e49);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: flex;
@@ -67,7 +68,7 @@
 .title span {
   height: 5px;
   width: 50px;
-  background: linear-gradient(to right, #2ea2d7, #011e49);
+  background: linear-gradient(to right, #1076b1, #011e49);
   display: inline-block;
   margin: 0 auto;
   margin-top: 10px;
@@ -75,7 +76,7 @@
 }
 
 .gradient-text {
-  background: -webkit-linear-gradient(left, #2ea2d7, #011e49);
+  background: -webkit-linear-gradient(left, #1076b1, #011e49);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;

@@ -14,7 +14,7 @@ const Navbar = () => {
       <nav>
         <div data-aos="fade-right" className="logo">
           <Link to={"/"}>
-            <span>E</span>R<span>A</span>B
+            ER<span>AB</span>
           </Link>
         </div>
         <div data-aos="fade-left" className="nav_links">
