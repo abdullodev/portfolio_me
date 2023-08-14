@@ -19,7 +19,7 @@ nav {
     font-size: 24px;
     font-weight: 600;
     a {
-      color: #041e34;
+      color: #0e274c;
       text-decoration: none;
       transition: all 0.3s ease;
     }
@@ -30,10 +30,10 @@ nav {
 
     &:hover {
       a {
-        color: #2ea2d7;
+        color: #0e274c;
       }
       span {
-        color: #041e34;
+        color: #2ea2d7;
       }
     }
   }
@@ -49,7 +49,7 @@ nav {
       text-transform: capitalize;
       font-size: 16px;
       font-weight: 400;
-      color: #041e34;
+      color: #0e274c;
       height: 100%;
       border-radius: 5px;
 
@@ -70,7 +70,7 @@ nav {
     span {
       width: 100%;
       height: 2px;
-      background-color: #041e34;
+      background-color: #011e49;
       display: block;
       border-radius: 5px;
       transition: all 0.3s ease;
@@ -112,7 +112,7 @@ nav {
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
-  background-color: #041e34;
+  background-color: #011e49;
   z-index: 12;
   padding: 20px;
   transition: all 0.3s ease;

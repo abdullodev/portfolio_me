@@ -12,16 +12,16 @@
         .info_text {
           h1 {
             font-size: 60px;
-            background: -webkit-linear-gradient(left, #2ea2d7, #041e34);
+            background: -webkit-linear-gradient(left, #2ea2d7, #0e274c);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
 
             span {
-              color: #041e34;
+              color: #0e274c;
             }
           }
           h3 {
-            color: #041e34;
+            color: #0e274c;
             font-size: 35px;
           }
 
@@ -44,7 +44,7 @@
             text-decoration: none;
             .MuiButtonBase-root {
               padding: 9px 30px;
-              background: linear-gradient(to right, #041e34, #2ea2d7);
+              background: linear-gradient(to right, #0e274c, #2ea2d7);
               display: flex;
               gap: 7px;
               color: #ffffff;
