@@ -6,7 +6,13 @@ const Loader = () => {
   return (
     <div>
       <Box
-        sx={{ width: "100%", position: "absolute", top: "60px", zIndex: "999" }}
+        sx={{
+          width: "100%",
+          maxWidth: "1970px",
+          position: "absolute",
+          top: "60px",
+          zIndex: "999",
+        }}
       >
         <LinearProgress />
       </Box>
