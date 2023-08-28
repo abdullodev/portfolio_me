@@ -17,7 +17,7 @@
   h2 {
     font-size: 18px;
     font-weight: 800;
-    color: #0e274c;
+    color: #06455b;
   }
   .social_text {
     margin-top: 18px;
@@ -33,10 +33,10 @@
         text-decoration: none;
         font-size: 25px;
         font-weight: 700;
-        color: #0e274c;
+        color: #06455b;
         transition: all 0.3s ease;
         &:hover {
-          color: #1076b1;
+          color: #09a3e5;
         }
       }
     }
@@ -86,15 +86,15 @@
         background-color: inherit;
         font-size: 20px;
         font-weight: 600;
-        color: #0e274c;
-        border-bottom: 2px solid #0e274c;
+        color: #06455b;
+        border-bottom: 2px solid #06455b;
         transition: all 0.3s ease;
 
         &::placeholder {
           color: rgba(0, 32, 79, 0.7);
         }
         &:focus {
-          border-bottom: 2px solid #1076b1;
+          border-bottom: 2px solid #09a3e5;
         }
       }
       textarea {
@@ -111,7 +111,7 @@
         border-radius: 12px;
         font-weight: 500;
         &:hover {
-          background-color: #1076b1;
+          background-color: #09a3e5;
         }
 
         @media screen and (max-width: 760px) {

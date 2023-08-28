@@ -26,17 +26,17 @@
 
 /* text color  */
 
-/* #011E49   #045ffb #164d88 */
+/* #06455B   #045ffb #164d88 */
 
 .app_container {
   width: 100%;
-  background-color: #d4dcf2;
+  background-color: #e0eafa;
   margin-top: 60px;
   min-height: calc(100vh - 60px);
   padding: 10px 50px;
 }
 .app_content {
-  background-color: #d4dcf2;
+  background-color: #e0eafa;
   min-height: calc(100vh - 153px);
 }
 
@@ -59,7 +59,7 @@
   font-size: 45px;
   display: inline-block;
   font-weight: 600;
-  background: -webkit-linear-gradient(right, #1076b1, #011e49);
+  background: -webkit-linear-gradient(right, #09a3e5, #06455b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: flex;
@@ -68,7 +68,7 @@
 .title span {
   height: 5px;
   width: 50px;
-  background: linear-gradient(to right, #1076b1, #011e49);
+  background: linear-gradient(to right, #09a3e5, #06455b);
   display: inline-block;
   margin: 0 auto;
   margin-top: 10px;
@@ -76,10 +76,11 @@
 }
 
 .gradient-text {
-  background: -webkit-linear-gradient(left, #1076b1, #011e49);
+  background: -webkit-linear-gradient(left, #09a3e5, #06455b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
+  position: relative;
 }
 .MuiButtonBase-root {
   z-index: 1 !important;

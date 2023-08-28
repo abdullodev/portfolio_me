@@ -2,6 +2,7 @@ import { Fragment, useState } from "react";
 import { Button } from "@mui/material";
 import { NAVBAR_LIST } from "./Navbar.constants";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import Logo from "../../assets/abdullo-me.png";
 import "./Navbar.scss";
 
 const Navbar = () => {
@@ -14,7 +15,7 @@ const Navbar = () => {
       <nav>
         <div data-aos="fade-right" className="logo">
           <Link to={"/"}>
-            ER<span>AB</span>
+            <img src={Logo} alt="logo" height={"40px"} />
           </Link>
         </div>
         <div data-aos="fade-left" className="nav_links">

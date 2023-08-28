@@ -10,11 +10,13 @@ const Loader = () => {
           width: "100%",
           maxWidth: "1970px",
           position: "absolute",
-          top: "60px",
+          top: "50%",
+          left: "50%",
           zIndex: "999",
+          transform: "translate(-50%,-50%)",
         }}
       >
-        <LinearProgress />
+        <div className="loader"></div>
       </Box>
     </div>
   );
