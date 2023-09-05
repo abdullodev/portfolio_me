@@ -1,5 +1,4 @@
 nav {
-  background-color: inherit;
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -8,7 +7,7 @@ nav {
   -webkit-box-shadow: 0px 3px 5px -5px rgba(0, 141, 249, 0.6);
   -moz-box-shadow: 0px 3px 5px -5px rgba(0, 141, 249, 0.6);
   box-shadow: 0px 3px 5px -5px rgba(0, 141, 249, 0.6);
-  background-color: #e0eafa;
+  background-color: #255570;
   position: fixed;
   top: 0;
   width: 100%;
@@ -41,7 +40,7 @@ nav {
       text-transform: capitalize;
       font-size: 16px;
       font-weight: 400;
-      color: #06455b;
+      color: #ffffff;
       height: 100%;
       font-weight: 500;
       border-radius: 5px;
@@ -63,7 +62,7 @@ nav {
     span {
       width: 100%;
       height: 2px;
-      background-color: #06455b;
+      background-color: #ffffff;
       display: block;
       border-radius: 5px;
       transition: all 0.3s ease;
@@ -124,11 +123,11 @@ nav {
 
       &:hover {
         color: #ffffff;
-        background-color: #06455b;
+        background-color: #255570;
       }
       &.active {
         color: #ffffff;
-        background-color: #06455b;
+        background-color: #255570;
       }
     }
   }
@@ -143,8 +142,7 @@ nav {
   top: 60px;
   width: 100%;
   height: calc(100vh - 60px);
-  background-color: rgba(1, 32, 80, 0.7);
-  backdrop-filter: blur(7.5px);
+  background-color: rgba(1, 32, 80, 0.5);
   opacity: 0;
   z-index: -1;
   transition: all 0.3s ease;
