@@ -12,16 +12,16 @@
         .info_text {
           h1 {
             font-size: 60px;
-            background: -webkit-linear-gradient(left, #09a3e5, #06455b);
+            background: -webkit-linear-gradient(left, #09a3e5, #255570);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
 
             span {
-              color: #06455b;
+              color: #255570;
             }
           }
           h3 {
-            color: #06455b;
+            color: #255570;
             font-size: 35px;
           }
 
@@ -44,7 +44,7 @@
             text-decoration: none;
             .MuiButtonBase-root {
               padding: 9px 30px;
-              background: linear-gradient(to right, #06455b, #09a3e5);
+              background-color: #255570;
               display: flex;
               gap: 7px;
               color: #ffffff;
@@ -61,10 +61,10 @@
                 box-shadow: 0px 0px 17px -3px rgba(105, 190, 255, 0.6);
 
                 .icon1 {
-                  animation: icon2 1s linear infinite;
+                  animation: icon2 0.3s linear infinite;
                 }
                 .icon2 {
-                  animation: icon1 1s linear infinite;
+                  animation: icon1 0.3s linear infinite;
                 }
               }
 
@@ -102,9 +102,10 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        max-height: calc(100vh - 180px);
 
         img {
-          max-width: 90%;
+          max-width: 80%;
           max-height: 80%;
           object-fit: cover;
         }

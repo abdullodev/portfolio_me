@@ -36,12 +36,7 @@ const Contact = () => {
             </h2>
             <ul data-aos="fade-right">
               <li>
-                <a
-                  href="#"
-                  onClick={() =>
-                    copyToClipBoard("abdulloergashxojayev01@gmail.com")
-                  }
-                >
+                <a href="mailto:abdulloergashxojayev01@gmail.com">
                   abdulloergashxojayev01@gmail.com
                 </a>
               </li>

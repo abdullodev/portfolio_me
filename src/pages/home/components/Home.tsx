@@ -4,7 +4,7 @@ import { Button } from "@mui/material";
 import { Social } from "components";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Link } from "react-router-dom";
-import Web from "../assets/webb.png";
+import Web from "../../../assets/developer.png";
 import "./Home.scss";
 
 const Home = () => {

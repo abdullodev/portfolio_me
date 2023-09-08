@@ -24,7 +24,7 @@ const About = () => {
               <p>
                 Hello. My name is Abdullo. <br /> I learned{" "}
                 <span className="gradient-text"> Frontend </span> and worked
-                with them. <br /> My experience is{" "}
+                with them. <br /> My currently experience is{" "}
                 <span className="gradient-text">1+</span> years.
               </p>
             </div>
