@@ -7,6 +7,7 @@ import ReactQuery from "../assets/querys.jpg";
 import ReactLogo from "../assets/react.jpg";
 import SQLImg from "../assets/sql.png";
 import Typescript from "../assets/typescript.webp";
+import AntD from "../assets/ant-design.jpg";
 
 interface ISkills {
   title: string;
@@ -48,5 +49,9 @@ export const SKILLS: ISkills[] = [
   {
     title: "Bootstrap",
     img: Boot,
+  },
+  {
+    title: "Ant Design",
+    img: AntD,
   },
 ];

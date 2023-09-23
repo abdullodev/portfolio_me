@@ -22,7 +22,11 @@ const Home = () => {
             </div>
 
             <div className="main_btns">
-              <Link to={"/contact"} style={{ textDecoration: "none" }}>
+              <Link
+                to={"/contact"}
+                style={{ textDecoration: "none" }}
+                className="button-bg"
+              >
                 <Button data-aos="zoom-in">
                   <ContactPhoneIcon className="icon1" /> Contact
                 </Button>
@@ -31,6 +35,7 @@ const Home = () => {
                 href="./Ergashkhujayev Abdulloh.pdf"
                 target="_blank"
                 data-aos="zoom-in"
+                className="button-bg"
               >
                 <Button>
                   <FileDownloadIcon className="icon2" />

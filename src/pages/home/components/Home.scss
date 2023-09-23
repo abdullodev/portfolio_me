@@ -12,9 +12,7 @@
         .info_text {
           h1 {
             font-size: 60px;
-            background: -webkit-linear-gradient(left, #09a3e5, #255570);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: #255570;
 
             span {
               color: #255570;
@@ -44,7 +42,6 @@
             text-decoration: none;
             .MuiButtonBase-root {
               padding: 9px 30px;
-              background-color: #255570;
               display: flex;
               gap: 7px;
               color: #ffffff;
@@ -56,10 +53,6 @@
               }
 
               &:hover {
-                -webkit-box-shadow: 0px 0px 17px -3px rgba(105, 190, 255, 0.6);
-                -moz-box-shadow: 0px 0px 17px -3px rgba(105, 190, 255, 0.6);
-                box-shadow: 0px 0px 17px -3px rgba(105, 190, 255, 0.6);
-
                 .icon1 {
                   animation: icon2 0.3s linear infinite;
                 }

@@ -42,13 +42,13 @@
 
 .app_container {
   width: 100%;
-  background-color: #e0eafa;
+  background-color: #ffffff;
   margin-top: 60px;
   min-height: calc(100vh - 60px);
   padding: 10px 50px;
 }
 .app_content {
-  background-color: #e0eafa;
+  background-color: #ffffff;
   min-height: calc(100vh - 153px);
 }
 
@@ -71,24 +71,20 @@
   font-size: 45px;
   display: inline-block;
   font-weight: 600;
-  background: -webkit-linear-gradient(right, #09a3e5, #06455b);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #06455b;
   display: flex;
   flex-direction: column;
 }
 .title span {
   height: 5px;
   width: 50px;
-  background: linear-gradient(to right, #09a3e5, #06455b);
-  display: inline-block;
   margin: 0 auto;
   margin-top: 10px;
   border-radius: 12px;
 }
 
 .gradient-text {
-  color: #09a3e5;
+  color: #06455b;
   display: inline-block;
   position: relative;
 }
@@ -107,4 +103,9 @@
   .title {
     font-size: 35px;
   }
+}
+
+.button-bg {
+  background: linear-gradient(to right, #255570, #0097a0);
+  border-radius: 4px;
 }

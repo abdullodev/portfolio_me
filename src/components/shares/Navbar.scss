@@ -7,7 +7,7 @@ nav {
   -webkit-box-shadow: 0px 3px 5px -5px rgba(0, 141, 249, 0.6);
   -moz-box-shadow: 0px 3px 5px -5px rgba(0, 141, 249, 0.6);
   box-shadow: 0px 3px 5px -5px rgba(0, 141, 249, 0.6);
-  background-color: #255570;
+  background: linear-gradient(to left, #255570, #0097a0, #255570);
   position: fixed;
   top: 0;
   width: 100%;
@@ -42,14 +42,52 @@ nav {
       font-weight: 400;
       color: #ffffff;
       height: 100%;
-      font-weight: 500;
+      font-weight: 400;
       border-radius: 5px;
 
       &:hover {
-        color: #09a3e5;
+        color: #eeeeee;
       }
       &.active {
-        color: #09a3e5;
+        color: #d8d3f8;
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        transform: scaleX(0);
+        transform-origin: left;
+        height: 1.5px;
+        background-color: #d8d3f8;
+        transition: 0.2s ease-in;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: scaleX(0);
+        transform-origin: right;
+        width: 100%;
+        height: 1.5px;
+        transition: 0.2s ease-in-out;
+        transition-delay: 0.2s;
+        background-color: #d8d3f8;
+      }
+      &:hover::before {
+        transform: scaleX(1);
+      }
+      &:hover::after {
+        transform: scaleX(1);
+      }
+      &.active::after {
+        transform: scaleX(1);
+      }
+      &.active::before {
+        transform: scaleX(1);
       }
     }
   }
